@@ -12,10 +12,12 @@ import UserProfile from './UserProfile/UserProfile';
 import InternshipComponent from './HomePage/components/InternshipComponent';
 import CompanyHome from './compHomepage/HomeTop';
 import CompanyProfile from './CompProfile/CompProfile';
+import ApplyInternship from './ApplyInternship/apply';
+import ApplyInternship2 from './ApplyInternship/apply2';
 import Postinership from './PostInternship/post';
-
 import LogIn from './RegistrationForm/LogIn';
 import SingUp from './RegistrationForm/SingUp';
+
 
 function App() {
   return (
@@ -38,7 +40,13 @@ function App() {
         <Route path="/Signup-cmp" element={<AboutUs/>}/>
         <Route path="/cmpHome" element={<CompanyHome/>}/>
         <Route path="/comp-profile" element={<CompanyProfile/>}/>
-        <Route path="/Post-Internship" element={<Postinership/>}/>
+
+        <Route path="/Post-Internship" element={<Postintership/>}/>
+        <Route path="/Apply-Internship" element={<ApplyInternship/>}/>
+        <Route path="/Apply-Internship2" element={<ApplyInternship2/>}/>
+
+
+
 
 
 

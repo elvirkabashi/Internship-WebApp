@@ -6,9 +6,9 @@ const CustomNavbar = () => {
   return (
     <Navbar bg="transparent" expand="lg">
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/cmpHome">
           <img
-            src={require('../../images/logo.png')}
+            src={require('../images/logo.png')}
             height="30"
             className="d-inline-block align-top"
             alt="Logo"
@@ -17,9 +17,9 @@ const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-auto">
-            <Nav.Link href="/about-us" style={{ color: 'white' }}>About Us</Nav.Link>
+            <Nav.Link href="/cmpHome" style={{ color: 'white' }}>Home</Nav.Link>
             <Nav.Link href="#contact-us" style={{ color: 'white' }}>Contact Us</Nav.Link>
-            <Nav.Link href="/Apply-Internship" style={{ color: 'white' }}>Internships</Nav.Link>
+            <Nav.Link href="/about-us-cmp" style={{ color: 'white' }}>About Us</Nav.Link>
           </Nav>
           <Nav>
             <NavDropdown
@@ -27,8 +27,7 @@ const CustomNavbar = () => {
               id="basic-nav-dropdown"
               align="end"
             >
-              <NavDropdown.Item href="/user-profile">Profile</NavDropdown.Item>
-              <NavDropdown.Item href="#settings">Settings</NavDropdown.Item>
+              <NavDropdown.Item href="/comp-profile">Profile</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#logout">Logout</NavDropdown.Item>
             </NavDropdown>
