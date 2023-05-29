@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import HomeTop from './HomePage/components/HomeTop';
 import AboutUs from './AboutUs/AboutUs';
+import UserProfile from './UserProfile/UserProfile';
 import InternshipComponent from './HomePage/components/InternshipComponent';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         <Route path="/Contact-us" element={<AboutUs/>}/>
         <Route path="/InternshipsI" element={<AboutUs/>}/>
         <Route path="/InternshipsC" element={<AboutUs/>}/>
-        <Route path="/Profile" element={<AboutUs/>}/>
+        <Route path="/user-profile" element={<UserProfile/>}/>
         <Route path="/Login" element={<AboutUs/>}/>
         <Route path="/Signup" element={<AboutUs/>}/>
         <Route path="/About-us" element={<AboutUs/>}/>
