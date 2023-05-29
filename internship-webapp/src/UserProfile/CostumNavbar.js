@@ -21,7 +21,7 @@ const CustomNavbar = () => {
             <Nav.Link href="/about-us" style={{ color: 'white' }}>About us</Nav.Link>
             <Nav.Link href="#contact-us" style={{ color: 'white' }}>Contact Us</Nav.Link>
             <Nav.Link href="/Apply-Internship" style={{ color: 'white' }}>Internships</Nav.Link>
-            <Nav.Link href="/" style={{ color: 'white' }}>Home</Nav.Link>
+            <Nav.Link href="/home" style={{ color: 'white' }}>Home</Nav.Link>
           </Nav>
           <Nav>
             <NavDropdown
@@ -30,7 +30,7 @@ const CustomNavbar = () => {
               align="end"
             >
               <NavDropdown.Divider />
-             <NavDropdown.Item> <Link to='/login'>Logout</Link></NavDropdown.Item>
+             <NavDropdown.Item> <Link to='/r'>Logout</Link></NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

@@ -27,7 +27,7 @@ const LogIn = () => {
         <form onSubmit={handleSubmit} style={{ backgroundColor: '#34B3E1', padding: '2rem', borderRadius: '15px' }}>
           <div className="mb-3">
             <button type="button" className="btn btn-primary me-5" style={{borderRadius: "30%"}}>LogIn</button>
-            <Link to='/singup' type="button" className="btn btn-primary" style={{background:'transparent', border: "none"}}>SignUp</Link>
+            <Link to='/Signup-user' type="button" className="btn btn-primary" style={{background:'transparent', border: "none"}}>SignUp</Link>
           </div>
           <div className="mb-3">
             <input type="email" placeholder="Intern Email" className="form-control" id="email" value={email} onChange={handleEmailChange} required />

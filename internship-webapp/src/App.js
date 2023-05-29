@@ -8,8 +8,6 @@ import HomeTop from './HomePage/components/HomeTop';
 import AboutUs from './AboutUs/AboutUs';
 import AboutUsCmp from './AboutUsCmp/AboutUs';
 import UserProfile from './UserProfile/UserProfile';
-
-import InternshipComponent from './HomePage/components/InternshipComponent';
 import CompanyHome from './compHomepage/HomeTop';
 import CompanyProfile from './CompProfile/CompProfile';
 import ApplyInternship from './ApplyInternship/apply';
@@ -26,7 +24,7 @@ function App() {
 
       <Routes>
 
-        <Route path="/" element={<HomeTop />} />
+      
         <Route path="/home" element={<HomeTop />} />
         <Route path="/about-us" element={<AboutUs/>}/>
         <Route path="/about-us-cmp" element={<AboutUsCmp/>}/>
@@ -34,14 +32,13 @@ function App() {
         <Route path="/InternshipsI" element={<AboutUs/>}/>
         <Route path="/InternshipsC" element={<AboutUs/>}/>
         <Route path="/user-profile" element={<UserProfile/>}/>
-        <Route path="/Login-user" element={<AboutUs/>}/>
-        <Route path="/Signup-user" element={<AboutUs/>}/>
+        <Route path="/" element={<LogIn/>}/>
+        <Route path="/Signup-user" element={<SingUp/>}/>
         <Route path="/Login-cmp" element={<AboutUs/>}/>
         <Route path="/Signup-cmp" element={<AboutUs/>}/>
         <Route path="/cmpHome" element={<CompanyHome/>}/>
         <Route path="/comp-profile" element={<CompanyProfile/>}/>
-
-        <Route path="/Post-Internship" element={<Postintership/>}/>
+        <Route path="/Post-Internship" element={<Postinership/>}/>
         <Route path="/Apply-Internship" element={<ApplyInternship/>}/>
         <Route path="/Apply-Internship2" element={<ApplyInternship2/>}/>
 

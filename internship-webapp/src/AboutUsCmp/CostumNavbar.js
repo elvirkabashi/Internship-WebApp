@@ -29,7 +29,7 @@ const CustomNavbar = () => {
             >
               <NavDropdown.Item href="/comp-profile">Profile</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#logout">Logout</NavDropdown.Item>
+              <NavDropdown.Item href="/">Logout</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

@@ -30,7 +30,7 @@ const CustomNavbar = () => {
               align="end"
             >
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#logout">Logout</NavDropdown.Item>
+              <NavDropdown.Item href="#logou/">Logout</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

@@ -56,7 +56,7 @@ const SignUp = () => {
       <div className="col-md-6">
         <form onSubmit={handleSubmit} style={{ backgroundColor: '#34B3E1', padding: '2rem', borderRadius: '15px' }}>
           <div className="mb-3">
-            <Link to='/login' type="button" className="btn btn-primary me-5" style={{background:'transparent', border: "none"}}>LogIn</Link>
+            <Link to='/login-user' type="button" className="btn btn-primary me-5" style={{background:'transparent', border: "none"}}>LogIn</Link>
             <button type="button" className="btn btn-primary" style={{borderRadius: "30%"}}>SignUp</button>
           </div>
           <div className="mb-3">

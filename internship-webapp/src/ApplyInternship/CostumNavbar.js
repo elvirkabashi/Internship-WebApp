@@ -17,9 +17,9 @@ const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-auto">
-            <Nav.Link href="/cmpHome" style={{ color: 'white' }}>Home</Nav.Link>
+            <Nav.Link href="/home" style={{ color: 'white' }}>Home</Nav.Link>
             <Nav.Link href="#contact-us" style={{ color: 'white' }}>Contact Us</Nav.Link>
-            <Nav.Link href="/about-us-cmp" style={{ color: 'white' }}>About Us</Nav.Link>
+            <Nav.Link href="/about-us" style={{ color: 'white' }}>About Us</Nav.Link>
           </Nav>
           <Nav>
             <NavDropdown
@@ -29,7 +29,7 @@ const CustomNavbar = () => {
             >
               <NavDropdown.Item href="/comp-profile">Profile</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#logout">Logout</NavDropdown.Item>
+              <NavDropdown.Item href="/">Logout</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
