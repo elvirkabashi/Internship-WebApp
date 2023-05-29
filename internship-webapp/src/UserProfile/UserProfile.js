@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import CustomNavbar from './CostumNavbar';
 import backgroundImage from '../images/background.jpg';
 
@@ -47,7 +47,8 @@ const UserProfComponent = () => {
              src={require('./profile.jpeg')}
              height='480px'
              width='380px'
-             style={{position:'relative',top:'10px',borderRadius:'20px'}}></img>
+             style={{position:'relative',top:'10px',borderRadius:'20px'}}
+             alt=''></img>
           </div>
         </div> 
         </div>

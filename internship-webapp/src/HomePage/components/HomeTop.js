@@ -1,7 +1,8 @@
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import CustomNavbar from './CostumNavbar';
 import backgroundImage from '../../images/background.jpg';
+import { Link } from 'react-router-dom';
 
 const HomePageComponent = () => {
   return (
@@ -19,7 +20,7 @@ const HomePageComponent = () => {
             <div style={{}}>
               <h3 style={{display: 'flex'}}>Find and apply to your<br /> desired internship<br /> with us</h3>
               <p style={{display: 'flex'}}>Now it’s easier than ever to<br /> get your work experience</p>
-              <Button
+              <Link to='/singup'><Button
               variant="light"
               className="custom-button"
               style={{
@@ -35,7 +36,7 @@ const HomePageComponent = () => {
               }}
             >
               Create Account
-            </Button>
+            </Button></Link>
             </div>
             <div style={{ marginLeft: '500px' }}>
               <h1 style={{display:'flex', fontSize: '65px' }}>More than<br />20,000 interns</h1>

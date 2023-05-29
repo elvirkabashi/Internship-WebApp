@@ -8,10 +8,15 @@ import HomeTop from './HomePage/components/HomeTop';
 import AboutUs from './AboutUs/AboutUs';
 import AboutUsCmp from './AboutUsCmp/AboutUs';
 import UserProfile from './UserProfile/UserProfile';
+
 import InternshipComponent from './HomePage/components/InternshipComponent';
 import CompanyHome from './compHomepage/HomeTop';
 import CompanyProfile from './CompProfile/CompProfile';
 import Postinership from './PostInternship/post';
+
+import LogIn from './RegistrationForm/LogIn';
+import SingUp from './RegistrationForm/SingUp';
+
 function App() {
   return (
     <div className="App"> 
@@ -20,6 +25,7 @@ function App() {
       <Routes>
 
         <Route path="/" element={<HomeTop />} />
+        <Route path="/home" element={<HomeTop />} />
         <Route path="/about-us" element={<AboutUs/>}/>
         <Route path="/about-us-cmp" element={<AboutUsCmp/>}/>
         <Route path="/Contact-us" element={<AboutUs/>}/>
