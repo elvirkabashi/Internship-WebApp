@@ -8,7 +8,7 @@ const CustomNavbar = () => {
       <Container>
         <Navbar.Brand href="/">
           <img
-            src={require('../../images/logo.png')}
+            src={require('../images/logo.png')}
             height="30"
             className="d-inline-block align-top"
             alt="Logo"
@@ -17,9 +17,10 @@ const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-auto">
-            <Nav.Link href="/about-us" style={{ color: 'white' }}>About Us</Nav.Link>
+            <Nav.Link href="/about-us" style={{ color: 'white' }}>About us</Nav.Link>
             <Nav.Link href="#contact-us" style={{ color: 'white' }}>Contact Us</Nav.Link>
             <Nav.Link href="#internships" style={{ color: 'white' }}>Internships</Nav.Link>
+            <Nav.Link href="/home" style={{ color: 'white' }}>Home</Nav.Link>
           </Nav>
           <Nav>
             <NavDropdown
@@ -27,8 +28,6 @@ const CustomNavbar = () => {
               id="basic-nav-dropdown"
               align="end"
             >
-              <NavDropdown.Item href="/user-profile">Profile</NavDropdown.Item>
-              <NavDropdown.Item href="#settings">Settings</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#logout">Logout</NavDropdown.Item>
             </NavDropdown>
