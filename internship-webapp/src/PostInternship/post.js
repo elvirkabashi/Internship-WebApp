@@ -16,7 +16,7 @@ const HomePageComponent = () => {
       <CustomNavbar />
       <div style={{position:'relative',left:'650px',top:'50px'}}>
        <div><a href="/Post-Internship"><button style={{backgroundColor:'#1796F2',borderRadius:'8px'}}>Employer/Post Internship</button></a></div> 
-        <div><a href="/Login-user"><button style={{backgroundColor:'#89CAF9',borderRadius:'8px'}}>Find Internship</button></a></div>
+        <div><a href="/"><button style={{backgroundColor:'#89CAF9',borderRadius:'8px'}}>Find Internship</button></a></div>
         
       </div>
       <div className="d-flex flex-row justify-content-start align-items-center vh-100" style={{width: '100%',height:'100%'}}>
