@@ -6,7 +6,7 @@ const CustomNavbar = () => {
   return (
     <Navbar bg="transparent" expand="lg">
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/home">
           <img
             src={require('../images/logo.png')}
             height="30"
@@ -17,7 +17,7 @@ const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-auto">
-            <Nav.Link href="/" style={{ color: 'white' }}>Home</Nav.Link>
+            <Nav.Link href="/home" style={{ color: 'white' }}>Home</Nav.Link>
             <Nav.Link href="#contact-us" style={{ color: 'white' }}>Contact Us</Nav.Link>
             <Nav.Link href="/Apply-Internship" style={{ color: 'white' }}>Internships</Nav.Link>
           </Nav>

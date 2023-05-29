@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { FaUserCircle } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const CustomNavbar = () => {
   return (
@@ -29,7 +30,7 @@ const CustomNavbar = () => {
               align="end"
             >
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#logout">Logout</NavDropdown.Item>
+             <NavDropdown.Item> <Link to='/login'>Logout</Link></NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
