@@ -7,7 +7,8 @@ import {
 import HomeTop from './HomePage/components/HomeTop';
 import AboutUs from './AboutUs/AboutUs';
 import UserProfile from './UserProfile/UserProfile';
-import InternshipComponent from './HomePage/components/InternshipComponent';
+import LogIn from './RegistrationForm/LogIn';
+import SingUp from './RegistrationForm/SingUp';
 
 function App() {
   return (
@@ -17,13 +18,14 @@ function App() {
       <Routes>
 
         <Route path="/" element={<HomeTop />} />
+        <Route path="/home" element={<HomeTop />} />
         <Route path="/about-us" element={<AboutUs/>}/>
         <Route path="/Contact-us" element={<AboutUs/>}/>
         <Route path="/InternshipsI" element={<AboutUs/>}/>
         <Route path="/InternshipsC" element={<AboutUs/>}/>
         <Route path="/user-profile" element={<UserProfile/>}/>
-        <Route path="/Login" element={<AboutUs/>}/>
-        <Route path="/Signup" element={<AboutUs/>}/>
+        <Route path="/singup" element={<SingUp/>}/>
+        <Route path="/LogIn" element={<LogIn/>}/>
         <Route path="/About-us" element={<AboutUs/>}/>
         <Route path="/About-us" element={<AboutUs/>}/>
 
