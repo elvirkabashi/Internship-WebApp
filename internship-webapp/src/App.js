@@ -18,6 +18,8 @@ import SingUp from './RegistrationForm/SingUp';
 import SignUpCompany from './RegistrationForm/SingUpCompany';
 import LogInCompany from './RegistrationForm/LogInCompany';
 import ContactUs from './ContactUsPage/ContactUs';
+import ContactUsCmp from './ContactUsPageCmp/ContactUs';
+
 
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
         <Route path="/about-us" element={<AboutUs/>}/>
         <Route path="/about-us-cmp" element={<AboutUsCmp/>}/>
         <Route path="/Contact-us" element={<ContactUs/>}/>
+        <Route path="/Contact-us-cmp" element={<ContactUsCmp/>}/>
         <Route path="/InternshipsI" element={<AboutUs/>}/>
         <Route path="/InternshipsC" element={<AboutUs/>}/>
         <Route path="/user-profile" element={<UserProfile/>}/>

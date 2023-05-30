@@ -19,7 +19,7 @@ const CustomNavbar = () => {
           <Nav className="me-auto mx-auto">
             <Nav.Link href="/cmpHome" style={{ color: 'white' }}>Home</Nav.Link>
             <Nav.Link href="/about-us-cmp" style={{ color: 'white' }}>About us</Nav.Link>
-            <Nav.Link href="/contact-us" style={{ color: 'white' }}>Contact Us</Nav.Link>
+            <Nav.Link href="/contact-us-cmp" style={{ color: 'white' }}>Contact Us</Nav.Link>
             <Nav.Link href="/Post-internship" style={{ color: 'white' }}>Internships</Nav.Link>
             
           </Nav>
@@ -30,7 +30,7 @@ const CustomNavbar = () => {
               align="end"
             >
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#logou/">Logout</NavDropdown.Item>
+              <NavDropdown.Item href="/Login-cmp">Logout</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

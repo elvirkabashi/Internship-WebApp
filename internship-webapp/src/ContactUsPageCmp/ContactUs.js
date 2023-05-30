@@ -42,6 +42,7 @@ const ContactUs = () => {
           for any problems or ideas
         </p>
       </div>
+      <div></div>
       <Container
         style={{
           maxWidth: '700px',
