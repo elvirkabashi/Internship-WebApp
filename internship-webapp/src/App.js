@@ -15,6 +15,9 @@ import ApplyInternship2 from './ApplyInternship/apply2';
 import Postinership from './PostInternship/post';
 import LogIn from './RegistrationForm/LogIn';
 import SingUp from './RegistrationForm/SingUp';
+import SignUpCompany from './RegistrationForm/SingUpCompany';
+import LogInCompany from './RegistrationForm/LogInCompany';
+import ContactUs from './ContactUsPage/ContactUs';
 
 
 function App() {
@@ -28,14 +31,15 @@ function App() {
         <Route path="/home" element={<HomeTop />} />
         <Route path="/about-us" element={<AboutUs/>}/>
         <Route path="/about-us-cmp" element={<AboutUsCmp/>}/>
-        <Route path="/Contact-us" element={<AboutUs/>}/>
+        <Route path="/Contact-us" element={<ContactUs/>}/>
         <Route path="/InternshipsI" element={<AboutUs/>}/>
         <Route path="/InternshipsC" element={<AboutUs/>}/>
         <Route path="/user-profile" element={<UserProfile/>}/>
         <Route path="/" element={<LogIn/>}/>
+        <Route path="/Login-user" element={<LogIn/>}/>
         <Route path="/Signup-user" element={<SingUp/>}/>
-        <Route path="/Login-cmp" element={<AboutUs/>}/>
-        <Route path="/Signup-cmp" element={<AboutUs/>}/>
+        <Route path="/Login-cmp" element={<LogInCompany/>}/>
+        <Route path="/Signup-cmp" element={<SignUpCompany/>}/>
         <Route path="/cmpHome" element={<CompanyHome/>}/>
         <Route path="/comp-profile" element={<CompanyProfile/>}/>
         <Route path="/Post-Internship" element={<Postinership/>}/>

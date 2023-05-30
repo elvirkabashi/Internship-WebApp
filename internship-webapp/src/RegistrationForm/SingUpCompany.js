@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const SignUp = () => {
+const SignUpCompany = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -56,14 +56,14 @@ const SignUp = () => {
       <div className="col-md-6">
         <form onSubmit={handleSubmit} style={{ backgroundColor: '#34B3E1', padding: '2rem', borderRadius: '15px' }}>
           <div className="mb-3">
-            <Link to='/login-user' type="button" className="btn btn-primary me-5" style={{background:'transparent', border: "none"}}>LogIn</Link>
+            <Link to='/Login-cmp' type="button" className="btn btn-primary me-5" style={{background:'transparent', border: "none"}}>LogIn</Link>
             <button type="button" className="btn btn-primary" style={{borderRadius: "30%"}}>SignUp</button>
           </div>
           <div className="mb-3">
-            <input type="text" placeholder="Name" className="form-control" id="name" value={name} onChange={handleNameChange} required />
+            <input type="text" placeholder="Company name" className="form-control" id="name" value={name} onChange={handleNameChange} required />
           </div>
           <div className="mb-3">
-            <input type="email" placeholder="Email" className="form-control" id="email" value={email} onChange={handleEmailChange} required />
+            <input type="email" placeholder="Company email" className="form-control" id="email" value={email} onChange={handleEmailChange} required />
           </div>
           <div className="mb-3">
             <input type="password" placeholder="Password" className="form-control" id="password" value={password} onChange={handlePasswordChange} required />
@@ -72,17 +72,8 @@ const SignUp = () => {
             <input type="tel" placeholder="Phone Number" className="form-control" id="phoneNumber" value={phoneNumber} onChange={handlePhoneNumberChange} required />
           </div>
           <div className="mb-3">
-            <input type="date" placeholder="Birthday" className="form-control" id="birthday" value={birthday} onChange={handleBirthdayChange} required />
-          </div>
-          <div className="mb-3">
-            <input type="text" placeholder="Profession" className="form-control" id="profession" value={profession} onChange={handleProfessionChange} required />
-          </div>
-          <div className="mb-3">
-            <input type="text" placeholder="Degree" className="form-control" id="degree" value={degree} onChange={handleDegreeChange} required />
-          </div>
-          <div className="mb-3">
             <Link to='/home' type="submit" className="btn btn-primary me-2">Submit</Link>
-            <Link to='/Signup-cmp' type="button" className="btn btn-primary">Company</Link>
+            <Link to='/Signup-user' type="button" className="btn btn-primary">User</Link>
           </div>
         </form>
       </div>
@@ -90,4 +81,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default SignUpCompany;
