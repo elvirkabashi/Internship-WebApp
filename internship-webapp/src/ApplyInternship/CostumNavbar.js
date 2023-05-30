@@ -18,7 +18,7 @@ const CustomNavbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto mx-auto">
             <Nav.Link href="/home" style={{ color: 'white' }}>Home</Nav.Link>
-            <Nav.Link href="#contact-us" style={{ color: 'white' }}>Contact Us</Nav.Link>
+            <Nav.Link href="/contact-us" style={{ color: 'white' }}>Contact Us</Nav.Link>
             <Nav.Link href="/about-us" style={{ color: 'white' }}>About Us</Nav.Link>
           </Nav>
           <Nav>

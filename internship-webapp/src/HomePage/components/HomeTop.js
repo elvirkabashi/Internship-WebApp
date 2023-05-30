@@ -20,7 +20,7 @@ const HomePageComponent = () => {
             <div style={{}}>
               <h3 style={{display: 'flex'}}>Find and apply to your<br /> desired internship<br /> with us</h3>
               <p style={{display: 'flex'}}>Now it’s easier than ever to<br /> get your work experience</p>
-              <Link to='/singup'><Button
+              <Link to='/Signup-user'><Button
               variant="light"
               className="custom-button"
               style={{
