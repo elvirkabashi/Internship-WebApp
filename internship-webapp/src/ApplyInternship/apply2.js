@@ -65,9 +65,11 @@ const HomePageComponent = () => {
       </div>
       <div style={{position:'relative',left:'40px',}}>
       <h5 style={{color:'#635F5F',position:'relative',right:'165px',top:'10px'}}>Description :</h5>
-      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'580px',height:'180px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
+      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'580px',height:'150px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
       <h3 style={{position:'relative',right:'180px',top:'3px'}}>Description...</h3>
       </div>
+      <div style={{position:'relative',left:'240px',top:'20px'}}>
+        <button  style={{width:'100px',height:'35px',backgroundColor:'#89CAF9',borderRadius:'20px'}}>Apply</button></div>
       </div>
       </div>
       
@@ -106,51 +108,12 @@ const HomePageComponent = () => {
       </div>
       <div style={{position:'relative',left:'40px',}}>
       <h5 style={{color:'#635F5F',position:'relative',right:'165px',top:'10px'}}>Description :</h5>
-      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'580px',height:'180px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
+      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'580px',height:'150px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
       <h3 style={{position:'relative',right:'180px',top:'3px'}}>Description...</h3>
       </div>
-      </div>
-      </div>
+      <div style={{position:'relative',left:'240px',top:'20px'}}>
+        <button  style={{width:'100px',height:'35px',backgroundColor:'#89CAF9',borderRadius:'20px'}}>Apply</button></div>
       
-    </div>
-
-    <div style={{backgroundColor:'white',width:'1000px',height:'350px',position:'relative',bottom:'600px',left:'150px',borderRadius:'20px',marginBottom:'40px'}}>
-      <div style={{display:'flex'}}>
-      <img src={require('./pngwing.com.png')} height="100" style={{position:'relative',left:'20px'}}></img>
-      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'300px',height:'40px',position:'relative',top:'30px',left:'40px',alignContent:'center'}}>
-        <h3>Graphic Designer</h3>
-      </div>
-      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'300px',height:'40px',position:'relative',top:'30px',left:'100px',alignContent:'center'}}>
-        <h3>Part-Time</h3>
-      </div>
-      </div>
-      <div style={{display:'flex'}}>
-      <div>
-      <div>
-        <h5 style={{color:'#635F5F',position:'relative',right:'30px',top:'10px'}}>Work Location :</h5>
-      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'300px',height:'40px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
-        <h3>Graphic Designer</h3>
-      </div>
-      </div>
-      <div>
-        <h5 style={{color:'#635F5F',position:'relative',right:'80px',top:'10px'}}>Pay :</h5>
-      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'300px',height:'40px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
-        <h3 style={{position:'relative',right:'30px',top:'3px'}}>23$ per hour</h3>
-      </div>
-      </div>
-      <div>
-      <h5 style={{color:'#635F5F',position:'relative',right:'45px',top:'10px'}}>Free Spaces :</h5>
-      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'300px',height:'40px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
-      <h3 style={{position:'relative',right:'30px',top:'3px'}}>4 People</h3>
-      </div>
-      </div>
-      <h6 style={{position:'relative',right:'50px',top:'10px'}}>Posted 2h ago</h6>
-      </div>
-      <div style={{position:'relative',left:'40px',}}>
-      <h5 style={{color:'#635F5F',position:'relative',right:'165px',top:'10px'}}>Description :</h5>
-      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'580px',height:'180px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
-      <h3 style={{position:'relative',right:'180px',top:'3px'}}>Description...</h3>
-      </div>
       </div>
       </div>
       
@@ -190,9 +153,57 @@ const HomePageComponent = () => {
       </div>
       <div style={{position:'relative',left:'40px',}}>
       <h5 style={{color:'#635F5F',position:'relative',right:'165px',top:'10px'}}>Description :</h5>
-      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'580px',height:'180px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
+      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'580px',height:'150px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
       <h3 style={{position:'relative',right:'180px',top:'3px'}}>Description...</h3>
       </div>
+      <div style={{position:'relative',left:'240px',top:'20px'}}>
+        <button  style={{width:'100px',height:'35px',backgroundColor:'#89CAF9',borderRadius:'20px'}}>Apply</button></div>
+      
+      </div>
+      </div>
+      
+    </div>
+
+    <div style={{backgroundColor:'white',width:'1000px',height:'350px',position:'relative',bottom:'600px',left:'150px',borderRadius:'20px',marginBottom:'40px'}}>
+      <div style={{display:'flex'}}>
+      <img src={require('./pngwing.com.png')} height="100" style={{position:'relative',left:'20px'}}></img>
+      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'300px',height:'40px',position:'relative',top:'30px',left:'40px',alignContent:'center'}}>
+        <h3>Graphic Designer</h3>
+      </div>
+      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'300px',height:'40px',position:'relative',top:'30px',left:'100px',alignContent:'center'}}>
+        <h3>Part-Time</h3>
+      </div>
+      </div>
+      <div style={{display:'flex'}}>
+      <div>
+      <div>
+        <h5 style={{color:'#635F5F',position:'relative',right:'30px',top:'10px'}}>Work Location :</h5>
+      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'300px',height:'40px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
+        <h3>Graphic Designer</h3>
+      </div>
+      </div>
+      <div>
+        <h5 style={{color:'#635F5F',position:'relative',right:'80px',top:'10px'}}>Pay :</h5>
+      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'300px',height:'40px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
+        <h3 style={{position:'relative',right:'30px',top:'3px'}}>23$ per hour</h3>
+      </div>
+      </div>
+      <div>
+      <h5 style={{color:'#635F5F',position:'relative',right:'45px',top:'10px'}}>Free Spaces :</h5>
+      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'300px',height:'40px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
+      <h3 style={{position:'relative',right:'30px',top:'3px'}}>4 People</h3>
+      </div>
+      </div>
+      <h6 style={{position:'relative',right:'50px',top:'10px'}}>Posted 2h ago</h6>
+      </div>
+      <div style={{position:'relative',left:'40px',}}>
+      <h5 style={{color:'#635F5F',position:'relative',right:'165px',top:'10px'}}>Description :</h5>
+      <div style={{backgroundColor:'#E1EEF8',borderRadius:'10px',width:'580px',height:'150px',position:'relative',top:'5px',left:'40px',alignContent:'center'}}>
+      <h3 style={{position:'relative',right:'180px',top:'3px'}}>Description...</h3>
+      </div>
+      <div style={{position:'relative',left:'240px',top:'20px'}}>
+        <button  style={{width:'100px',height:'35px',backgroundColor:'#89CAF9',borderRadius:'20px'}}>Apply</button></div>
+      
       </div>
       </div>
       

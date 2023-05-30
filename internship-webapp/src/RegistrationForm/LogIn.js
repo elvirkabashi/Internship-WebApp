@@ -37,7 +37,7 @@ const LogIn = () => {
           </div>
           <div className="mb-3">
             <Link to='/home' type="submit" className="btn btn-primary me-2">Submit</Link>
-            <Link to='/home' type="button" className="btn btn-primary">Company</Link>
+            <Link to='/Login-cmp' type="button" className="btn btn-primary">Company</Link>
           </div>
         </form>
       </div>

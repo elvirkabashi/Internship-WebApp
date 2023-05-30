@@ -36,8 +36,8 @@ const LogIn = () => {
             <input type="password" placeholder="Password" className="form-control" id="password" value={password} onChange={handlePasswordChange} required />
           </div>
           <div className="mb-3">
-            <Link to='/home' type="submit" className="btn btn-primary me-2">Submit</Link>
-            <Link to='/home' type="button" className="btn btn-primary">Company</Link>
+            <Link to='/cmpHome' type="submit" className="btn btn-primary me-2">Submit</Link>
+            <Link to='/Login-user' type="button" className="btn btn-primary">User</Link>
           </div>
         </form>
       </div>
