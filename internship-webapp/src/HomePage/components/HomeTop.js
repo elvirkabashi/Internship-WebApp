@@ -20,7 +20,7 @@ const HomePageComponent = () => {
             <div style={{}}>
               <h3 style={{display: 'flex'}}>Find and apply to your<br /> desired internship<br /> with us</h3>
               <p style={{display: 'flex'}}>Now it’s easier than ever to<br /> get your work experience</p>
-              <Link to='/Signup-user'><Button
+              <a href='/Signup-user'><Button
               variant="light"
               className="custom-button"
               style={{
@@ -36,7 +36,7 @@ const HomePageComponent = () => {
               }}
             >
               Create Account
-            </Button></Link>
+            </Button></a>
             </div>
             <div style={{ marginLeft: '500px' }}>
               <h1 style={{display:'flex', fontSize: '65px' }}>More than<br />20,000 interns</h1>
