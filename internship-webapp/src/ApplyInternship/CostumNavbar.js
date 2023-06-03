@@ -27,7 +27,7 @@ const CustomNavbar = () => {
               id="basic-nav-dropdown"
               align="end"
             >
-              <NavDropdown.Item href="/comp-profile">Profile</NavDropdown.Item>
+              <NavDropdown.Item href="/user-profile">Profile</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/">Logout</NavDropdown.Item>
             </NavDropdown>
